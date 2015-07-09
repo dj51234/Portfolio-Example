@@ -404,3 +404,27 @@ header {
 body {
   font-family: "Lato";
   font-smoothing: subpixel-antialiased !important; }
+
+@media (max-width: 763px) {
+  #about .flexbox {
+    flex-direction: column;
+  }
+  #contact {
+    padding-bottom: 0;
+  }
+  #contact .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  } 
+  #contact .content .form {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 486px) {
+  #portfolio #mylightbox img {
+    margin: 0;
+  }
+}
