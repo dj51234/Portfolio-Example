@@ -166,7 +166,10 @@ header {
       padding: 15px;
       max-width: 700px;
       margin: 0 auto;
-      font-size: 20px; }
+      font-size: 16px; }
+      #about .title p span {
+      color: #444;
+      font-weight: bold;}
   #about .flexbox {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -324,15 +327,19 @@ header {
       margin-top: 50px; }
   #contact .content {
     margin: 0 auto;
-    max-width: 700px; }
+    max-width: 700px;
+    padding-top: 50px; }
     #contact .content .address h3 {
-      font-weight: bold; }
+      font-weight: bold;
+      color: #333; }
     #contact .content .address p {
-      line-height: 20px; }
+      line-height: 20px;
+      color: #666; }
     #contact .content .form {
       float: right;
       margin-right: 50px;
-      width: 300px; }
+      width: 300px;
+      margin-top: -50px; }
       #contact .content .form label {
         color: #666;
         font-weight: bold; }
